@@ -1,0 +1,18 @@
+body {
+  color: rgb(30, 152, 171);
+  background-color: black;
+}
+h1 {
+  color: green;
+  margin-left: 40px;
+}
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+.btn {
+  background-color: white;
+}
+#nappi {
+  font-size: 48px;
+}
