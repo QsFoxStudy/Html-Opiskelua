@@ -28,17 +28,10 @@ footer {
 }
 .navbar a:hover {
   background-color: hsl(0, 0%, 10%);
+  color: red;
 }
 .navbar li {
   float: left;
-}
-
-.wrapper {
-  display: flex;
-}
-.wrapper > div {
-  flex: 1;
-  text-align: center;
 }
 
 h2 {
@@ -57,4 +50,28 @@ section {
   height: 500px;
   background-color: lightblue;
   width: 45%;
+}
+#vertical-navbar ul {
+  list-style-type: none;
+  background-color: gold;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+#vertical-navbar a {
+  color:black;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+#vertical-nav {
+  text-align: center;
+  float: left;
+  height: 500px;
+  background-color: gold;
+  width: 15%;
+}
+#vertical-navbar a:hover{
+  background-color:hsl(51, 100%, 40%);
 }
