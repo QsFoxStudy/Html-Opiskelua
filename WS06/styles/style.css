@@ -46,26 +46,34 @@ section {
   background-color: lightblue;
   width: 45%;
 }
-.page2 {
-  float: left;
+#page2 {
   text-align: center;
-  height: 500px;
+  height: fit-content;
   background-color: lightblue;
   width: 45%;
 }
+#page3 {
+  text-align: left;
+  height: 500px;
+  background-color: lightblue;
+  width: 45%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 #vertical-navbar ul {
   list-style-type: none;
   background-color: gold;
-  padding: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
   margin: 0px;
   overflow: hidden;
 }
 #vertical-navbar a {
-  color:black;
+  color: black;
   text-decoration: none;
   padding: 50px;
   display: block;
-  text-align: center;
 }
 #vertical-nav {
   text-align: center;
@@ -74,6 +82,13 @@ section {
   background-color: gold;
   width: 15%;
 }
-#vertical-navbar a:hover{
-  background-color:hsl(51, 100%, 40%);
+#vertical-navbar a:hover {
+  background-color: hsl(51, 100%, 40%);
+}
+
+img {
+  max-width: 80%;
+  height: auto;
+  vertical-align: center;
+  display: inline-block;
 }
