@@ -1,5 +1,5 @@
 .jumbotron {
-  background-image: url(/WS12/images/fox-1758183_1920.jpg);
+  background-image: url('/images/fox-1758183_1920.jpg');
   background-size: cover;
   min-height: 60vh;
   background-position: center;
