@@ -76,12 +76,13 @@ footer {
 /* Media Queries */
 /* Task 1: Change Layout for Small Screens */
 @media (max-width: 600px) {
+    
 }
 /* Task: Change Header Background Color for Different Screen Sizes - try also change body and footer elements appearance*/
 @media (max-width: 600px) {
-    .container header {
-        background-color: lightblue;
-      }
+  .container header {
+    background-color: lightblue;
+  }
 }
 /* Change aside not visible and change Header background Color*/
 @media (min-width: 600px) and (max-width: 900px) {
