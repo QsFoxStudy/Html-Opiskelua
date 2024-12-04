@@ -17,13 +17,14 @@
     ></script>
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
-  <body class="bg-dark">
+  <body class="bg-white">
+    <!--nav section-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand text-white" href="#">
           <img
             class="img-fluid"
-            src="images/fox logo bg dark.jpg"
+            src="images/foxlogobgdark.jpg"
             alt="Logo"
             style="width: 50px"
           />
@@ -40,16 +41,124 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <div class="navbar-nav ms-auto">
             <a href="index.html" class="nav-item nav-link active">Home</a>
-          <a href="second.html" class="nav-item nav-link">Fox Species</a>
-          <a href="third.html" class="nav-item nav-link">Fox Behavior</a>
-          <a href="fourth.html" class="nav-item nav-link"
-            >Conservation and Habitat</a
-          >
+            <a href="second.html" class="nav-item nav-link">Fox Species</a>
+            <a href="third.html" class="nav-item nav-link">Fox Behavior</a>
+            <a href="fourth.html" class="nav-item nav-link"
+              >Conservation and Habitat</a
+            >
           </div>
         </div>
       </div>
     </nav>
-    <footer class="bg-dark py-5">
+    <!--nav section-->
+    <!--page general section-->
+    <div class="container">
+      <div class="row row mt-5 bg-white">
+        <div class="col-sm-10">
+          <h1 class="mt-4">Species</h1>
+          <p class="lead mt-5 me-1">
+            Foxes are fascinating members of the Canidae family, sharing a
+            kinship with dogs, wolves, and coyotes. Among the many fox species,
+            the red fox is the most widespread and recognizable, known for its
+            reddish-brown coat and adaptability. The Arctic fox, with its thick
+            fur that changes color seasonally, is perfectly suited for the harsh
+            Arctic climate. In the deserts of North Africa, the fennec fox, with
+            its large ears for heat dissipation and pale coat for camouflage,
+            thrives in extreme conditions. The gray fox, a North American
+            species, stands out for its ability to climb trees. <br />
+            Foxes are typically small to medium-sized creatures with long, bushy
+            tails. Their pointed ears, narrow snout, and sharp claws are
+            characteristic features. Their fur color varies depending on the
+            species, often encompassing shades of red, brown, gray, or white.
+            <br />
+            As primarily nocturnal hunters, foxes are omnivores, feeding on
+            small mammals, birds, insects, fruits, and berries. Though solitary
+            animals, they may form family groups during the breeding season.
+            Known for their intelligence and cunning, foxes often outsmart their
+            prey. <br />
+            Foxes are adaptable and can be found on every continent except
+            Antarctica. They inhabit diverse environments, including forests,
+            grasslands, deserts, and even urban areas. While most fox species
+            are not currently threatened, some populations may be declining due
+            to habitat loss and other factors. Conservation efforts are underway
+            to protect fox populations and their habitats.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <!-- Carousel -->
+      <div id="demo" class="carousel slide" data-bs-ride="carousel">
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide-to="0"
+            class="active"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide-to="1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide-to="2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide-to="3"
+          ></button>
+        </div>
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/redfox.jpg" alt="RedFox" class="d-block w-100" />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/foxarctic.jpg"
+              alt="ArcticFox"
+              class="d-block w-100"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/foxfennec.jpg"
+              alt="FennecFox"
+              class="d-block w-100"
+            />
+          </div>
+          <div class="carousel-item">
+            <img src="images/grayfox2.webp" alt="GrayFox" class="d-block w-100" />
+          </div>
+        </div>
+
+        <!-- Left and right controls/icons -->
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </div>
+    <!--page general section-->
+    <!--footer section-->
+    <footer class="bg-dark py-5 mt-5">
       <div class="container text-white text-center">
         <p class="display-5 mb-3">Fox World</p>
         <small class="text-dark-50"
@@ -57,5 +166,6 @@
         >
       </div>
     </footer>
+    <!--footer section-->
   </body>
 </html>
