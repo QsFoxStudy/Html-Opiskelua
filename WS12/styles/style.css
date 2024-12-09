@@ -1,9 +1,25 @@
 .bg-image {
   background-position: center;
   background-size: cover;
-  min-height: 60vh;
+  min-height: 65vh;
   color: white;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+.imghomefox {
+  display: flex;
+  max-width: 600px;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.imghomefox img {
+  width: 400px;
+  height: 500px;
+  object-fit: cover;
+  padding: 2px;
 }
 
 br {
@@ -14,20 +30,47 @@ br {
   height: 580px;
 }
 
-.fullvheight {
-  min-height: 50vh;
-  justify-content: center;
+#karuselli {
+  background-color: black;
 }
 
-#karuselli {
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-color: black;
+}
+
+.carousel-indicators .active, .carousel-indicators [data-bs-slide-to] {
   background-color: black;
 }
 
 .form-control {
   width: 390px;
 }
+
 @media (max-width: 768px) {
   .form-control {
     width: 100%;
   }
+}
+
+.imgcollage {
+  display: flex;
+  max-width: 600px;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.imgcollage img {
+  width: 250px;
+  height: 220px;
+  object-fit: cover;
+  padding: 2px;
+}
+
+.imgcollage img:hover {
+  cursor: pointer;
+  opacity: 0.6;
+  transition: 0.5s;
 }
