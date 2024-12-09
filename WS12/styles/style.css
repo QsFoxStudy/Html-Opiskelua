@@ -18,11 +18,3 @@ br {
   min-height: 50vh;
   justify-content: center;
 }
-
-.form2 {
-  width: 300px;
-
-  @media (max-width: 768px) {
-    width: 100%;
-  }
-}
